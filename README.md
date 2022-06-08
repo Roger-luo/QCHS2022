@@ -1,5 +1,15 @@
 # QCHS2022
 
+## Installation & Setup
+
+1. Install Julia
+2. run the following in Julia REPL
+
+```julia
+pkg> instanitiate
+julia> using IJulia; IJulia.notebook(dir=pwd())
+```
+
 ## Day 1: The Yao ecosystem & variational quantum algorithms
 
 - Introduction of Yao
