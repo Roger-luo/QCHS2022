@@ -14,13 +14,17 @@ julia> using IJulia; IJulia.notebook(dir=pwd())
 
 - Introduction of Yao
 - Implement Quantum Fourier Transform using Yao
-- Implement Quantum Born Machine using Yao
+- Understanding automatic differentiation of Yao
+
+Pick one of the following:
+- Implement Quantum Born Machine using Yao (hands-on with unimplemented questions)
+- Implement Variational Eigen Solver using Yao (hands-on with unimplemented questions)
 
 ## Day 2: The Rydberg system & Bloqade
 
 - Introduction of Rydberg system & Bloqade
 - Simulating adaiabtic evolution using Bloqade
-- Solving maximum indenpendent set problem using Rydberg atom array
+- Solving maximum indenpendent set problem using Rydberg atom array (hands-on with unimplemented questions)
 
 # License
 
