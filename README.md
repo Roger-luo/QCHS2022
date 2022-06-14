@@ -17,8 +17,15 @@ julia> using IJulia; IJulia.notebook(dir=pwd())
 - Understanding automatic differentiation of Yao
 
 Pick one of the following:
-- Implement Quantum Born Machine using Yao (hands-on with unimplemented questions)
-- Implement Variational Eigen Solver using Yao (hands-on with unimplemented questions)
+1. find the corresponding U(4) gate parameter of given gate set
+2. find the ground state of the following hamiltonian (Rydberg Hamiltonian) on a chain lattice using imaginary time evolution/eigensolver/VQE
+
+$$
+\sum \frac{V}{|r_i-r_j|^6} n_i n_j + \Omega \sum_i X_i - \Delta \sum_i n_i
+$$
+
+3. bounty issue (https://github.com/QuantumBFS/Yao.jl/issues/403)
+4. explore other notebooks
 
 ## Day 2: The Rydberg system & Bloqade
 
