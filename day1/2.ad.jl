@@ -120,6 +120,9 @@ B = [Dual(1.0) Dual(2.0); Dual(1.0) Dual(3.0)]
 # ╔═╡ 1a483212-8f4b-11eb-0fa5-5994548ea6b9
 A * B
 
+# ╔═╡ 5b3fe9ba-5645-4642-a49e-0b5d6c78c936
+@code_warntype A * B
+
 # ╔═╡ f4228cb2-8eab-11eb-1b98-fbb30f8eeac3
 md"""
 # Forward Mode AD
@@ -236,7 +239,7 @@ We will need to call several functions in Julia to get the result $y$, which is
 In fact, we can draw a graph of this expression, which illustrates the relationship between each variable in this expression.
 Each node in the graph with an output arrow represents a variable and each node with an input arrow represents a function/operator.
 
-![](https://blog.rogerluo.me/images/comput-graph-forward.gif)
+![](https://blog.rogerluo.dev/images/comput-graph-forward.gif)
 
 The evaluation of the math equation above can then be expressed as a process called **forward evaluation**, it starts from the leaf nodes, which represents the inputs of the whole expression, e.g they are $\mathbf{x}, \mathbf{A}, \mathbf{b}, c$ in our expression. Each time, we receive the value of a node in the graph, we mark the node with **green**.
 """
@@ -245,7 +248,7 @@ The evaluation of the math equation above can then be expressed as a process cal
 md"""
 the derivative calculation can be then visualized as following
 
-![](https://blog.rogerluo.me/images/comput-graph-backward.gif)
+![](https://blog.rogerluo.dev/images/comput-graph-backward.gif)
 """
 
 # ╔═╡ 29fa38b6-8f61-11eb-118a-616fc647715a
@@ -639,6 +642,7 @@ uuid = "8e850b90-86db-534c-a0d3-1478176c7d93"
 # ╠═0906c78e-8f4b-11eb-1d3b-dd8d6d891175
 # ╠═149734d0-8f4b-11eb-0af4-6368d8bb34c0
 # ╠═1a483212-8f4b-11eb-0fa5-5994548ea6b9
+# ╠═5b3fe9ba-5645-4642-a49e-0b5d6c78c936
 # ╟─f4228cb2-8eab-11eb-1b98-fbb30f8eeac3
 # ╠═c6d79168-8f4f-11eb-1c4f-4bf4abbb2c72
 # ╟─d2f7c68e-8f4f-11eb-0d90-4f2f22bd87b6
