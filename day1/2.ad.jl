@@ -378,7 +378,7 @@ Base.sin(x::ADExpr) = register(Base.sin, x)
 md"""
 I will not demonstrate the details of implementing such AD engine, but once you understand the mechanism, you should be able to write one yourself in mins!
 
-For the curious, checkout my blog post **Implementing Your Own Automatic Differentiation Engine in ONE day**: [https://blog.rogerluo.me/2018/10/23/write-an-ad-in-one-day/](https://blog.rogerluo.me/2018/10/23/write-an-ad-in-one-day/)
+For the curious, checkout my blog post **Implementing Your Own Automatic Differentiation Engine in ONE day**: [https://blog.rogerluo.dev/2018/10/23/write-an-ad-in-one-day/](https://blog.rogerluo.dev/2018/10/23/write-an-ad-in-one-day/)
 """
 
 # ╔═╡ 73ffb3fe-8ffd-11eb-2b71-038543ea5093
@@ -440,12 +440,12 @@ this is a natural extension of the Wengert list (the tape) with control flows. T
 
 And in Julia, this is extremely easy (in terms of implementing it), because Julia is a dynamic compiled language
 
-![](https://blog.rogerluo.me/images/julia-compile-diagram.png)
+![](https://blog.rogerluo.dev/images/julia-compile-diagram.png)
 """
 
 # ╔═╡ df1d9e58-90de-11eb-341a-bb942e20e713
 md"""
-For the curious, checkout my blog post **Build your own source to source automatic differentiation in ONE day!** :[https://blog.rogerluo.me/2019/07/27/yassad/](https://blog.rogerluo.me/2019/07/27/yassad/)
+For the curious, checkout my blog post **Build your own source to source automatic differentiation in ONE day!** :[https://blog.rogerluo.dev/2019/07/27/yassad/](https://blog.rogerluo.dev/2019/07/27/yassad/)
 """
 
 # ╔═╡ c5f18fe2-8ffe-11eb-0a96-1f3ce397e943
